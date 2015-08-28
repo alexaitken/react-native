@@ -31,7 +31,7 @@
 {
   if ((self = [super initWithFrame:frame])) {
     self.windowLevel = UIWindowLevelAlert + 1000;
-    self.backgroundColor = [UIColor colorWithRed:0.8 green:0 blue:0 alpha:1];
+    self.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0.8 alpha:1];
     self.hidden = YES;
 
     UIViewController *rootController = [UIViewController new];
